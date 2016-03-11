@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">TicTacToe</string>
+	<string name="startAsX">Start Playing As X!</string>
+	<string name="startAsO">Start Playing As O!</string>
+	<string name="TicTacToe">Tic Tac Toe</string>
+	<string name="OsTurn">Player O\'s Turn</string>
+	<string name="XsTurn">Player X\'s Turn</string>
+	<string name="DrawGame">The game is a Draw.</string>
+	<string name="XWins">Player X Wins!</string>
+	<string name="OWins">Player O Wins!</string>
+	<string name="ShareLabel">Brag!</string>
+	<string name="SharingTitle">Brag It!</string>
+	<string name="IWon">I Won A Thing!</string>
+	<string name="OBragMsg">I totally wiped the floor with the X\'s at Tic Tac Toe!</string>
+	<string name="XBragMsg">I totally kicked the O\'s BUTT at Tic Tac Toe!</string>
+	<string name="GameErr">Game Error. curState: </string>
+	<string name="GameOver">Game Over.</string>
+</resources>

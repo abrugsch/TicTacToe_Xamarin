@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:gravity="center_vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearWrapper">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Row0"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal">
+            <ImageButton
+                android:src="@drawable/nomark"
+                android:text="Empty"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/Cell00"
+                android:background="#ffffffff"
+                android:layout_margin="5px"
+                android:layout_gravity="center" />
+            <ImageButton
+                android:src="@drawable/nomark"
+                android:text="Empty"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/Cell01"
+                android:background="#ffffffff"
+                android:layout_margin="5px"
+                android:layout_gravity="center" />
+            <ImageButton
+                android:src="@drawable/nomark"
+                android:text="Empty"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/Cell02"
+                android:background="#ffffffff"
+                android:layout_margin="5px"
+                android:layout_gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Row1"
+            android:gravity="center_horizontal">
+            <ImageButton
+                android:src="@drawable/nomark"
+                android:text="Empty"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/Cell10"
+                android:background="#ffffffff"
+                android:layout_margin="5px" />
+            <ImageButton
+                android:src="@drawable/nomark"
+                android:text="Empty"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/Cell11"
+                android:background="#ffffffff"
+                android:layout_margin="5px" />
+            <ImageButton
+                android:src="@drawable/nomark"
+                android:text="Empty"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/Cell12"
+                android:background="#ffffffff"
+                android:layout_margin="5px" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Row2"
+            android:gravity="center_horizontal">
+            <ImageButton
+                android:src="@drawable/nomark"
+                android:text="Empty"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/Cell20"
+                android:background="#ffffffff"
+                android:layout_margin="5px" />
+            <ImageButton
+                android:src="@drawable/nomark"
+                android:text="Empty"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/Cell21"
+                android:background="#ffffffff"
+                android:layout_margin="5px" />
+            <ImageButton
+                android:src="@drawable/nomark"
+                android:text="Empty"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/Cell22"
+                android:background="#ffffffff"
+                android:layout_margin="5px" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:text="Someones Turn"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textPlayerTurn"
+        android:gravity="center_horizontal" />
+</LinearLayout>
